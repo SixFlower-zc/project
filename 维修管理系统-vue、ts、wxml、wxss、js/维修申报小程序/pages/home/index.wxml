@@ -1,0 +1,42 @@
+<view class="view-box">
+  <view class="header">维修管理系统</view>
+
+  <view class="marquee">
+    <scroll-view scroll-x="true" class="marquee-content" scroll-with-animation id="marquee" scroll-left="{{scrollPosition}}">
+      <block wx:for="{{marqueeItems}}" wx:key="index">
+        <text class="marquee-text">{{item}}</text>
+      </block>
+    </scroll-view>
+  </view>
+
+  <view class="menu">
+    <view class="menu-item">
+      <text class="menu-text">社区通知</text>
+    </view>
+    <view class="menu-item">
+      <text class="menu-text">水电缴费</text>
+    </view>
+    <view class="menu-item">
+      <text class="menu-text">发布订单</text>
+    </view>
+    <view class="menu-item">
+      <text class="menu-text">二手市场</text>
+    </view>
+  </view>
+
+  <view class="info-section">
+    <view class="info-item">
+      <text class="info-title">总工单数：</text>
+      <text class="info-value">150</text>
+    </view>
+    <view class="info-item">
+      <text class="info-title">在职维修工：</text>
+      <text class="info-value">25</text>
+    </view>
+    <view class="info-item">
+      <text class="info-title">待处理工单：</text>
+      <text class="info-value">5</text>
+    </view>
+  </view>
+  <view style="height: 100px;"></view>
+</view>

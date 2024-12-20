@@ -1,0 +1,56 @@
+/* pages/feedback/index.wxss */
+.view-box {
+  box-sizing: border-box;
+  display: flex; /* 使用 Flexbox 布局 */
+  flex-direction: column; /* 设置为竖直方向排布 */
+  justify-content: center; /* 垂直居中 */
+  align-items: center; /* 水平居中 */
+  height: 100vh; /* 设置高度为 100% 视窗高度 */
+  background-color: #f7f7f7; /* 背景颜色 */
+  padding: 50rpx; /* 内边距 */
+}
+
+.title {
+  font-size: 50rpx; /* 增加标题字体大小 */
+  font-weight: bold;
+  margin-bottom: 24rpx; /* 增加标题与内容间距 */
+  text-align: center; /* 标题居中 */
+}
+
+.form-group {
+  margin-bottom: 24rpx; /* 每个表单组的间距 */
+  display: flex;
+  flex-direction: column; /* 竖排布局 */
+  width: 100%; /* 宽度填满父容器 */
+}
+
+.label {
+  font-size: 40rpx; /* 增加标签字体大小 */
+  color: #333;
+  margin-bottom: 12rpx; /* 标签和输入框之间的间距 */
+}
+
+.input,
+.textarea {
+  padding: 12rpx; /* 增加填充 */
+  border: 1px solid #ccc;
+  border-radius: 6rpx; /* 调整圆角 */
+  font-size: 30rpx; /* 增加输入框字体大小 */
+  width: 100%; /* 宽度填满父容器 */
+}
+
+.textarea {
+  min-height: 120rpx; /* 设置文本区域的最小高度 */
+  max-height: 300rpx; /* 设置文本区域的最大高度 */
+}
+
+.submit-button {
+  margin-top: 24rpx; /* 按钮与上方元素的间距 */
+  padding: 12rpx; /* 增加按钮填充 */
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 6rpx; /* 调整圆角 */
+  font-size: 30rpx; /* 增加按钮字体大小 */
+  cursor: pointer; /* 鼠标指针为手形 */
+}

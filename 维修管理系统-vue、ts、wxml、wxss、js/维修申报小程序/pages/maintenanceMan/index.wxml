@@ -1,0 +1,29 @@
+<!--pages/maintenanceMan/index.wxml-->
+<view class="view-box">
+  <view class="header">维修工列表</view>
+  <scroll-view class="repair-list" scroll-y="true">
+    <block wx:for="{{maintenanceMan}}" wx:key="index">
+      <view class="repair-worker">
+        <view class="worker-info">
+          <text class="worker-name">姓名:{{item.name}}</text>
+          <text class="worker-level">级别: {{item.level}}</text>
+          <text class="worker-phone">电话: {{item.phone}}</text>
+        </view>
+        <view class="worker-skills">
+          <text>技能:</text>
+          <view wx:for="{{item.skills}}" wx:key="index" class="skill-item">{{item}}</view>
+        </view>
+        <view class="worker-certificates">
+          <text>证书:</text>
+          <view wx:for="{{item.certificate}}" wx:key="index" class="certificate-item">{{item}}</view>
+        </view>
+        <view class="worker-remarks">
+          <text>备注: {{item.remarks}}</text>
+        </view>
+        <view class="worker-orders">
+          <text>总工单: {{item.TotalOrders.length}}个</text>
+        </view>
+      </view>
+    </block>
+  </scroll-view>
+</view>

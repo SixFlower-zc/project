@@ -1,0 +1,559 @@
+[
+  {
+    "cat_id": 1,
+    "cat_name": "手机数码",
+    "children": [
+      {
+        "cat_id": 11,
+        "cat_pid": 1,
+        "cat_name": "热门品牌",
+        "children": [
+          {
+            "cat_id": 1111,
+            "cat_pid": 11,
+            "cat_name": "小米",
+            "cat_icon": "//img30.360buyimg.com/focus/s140x140_jfs/t13411/188/926813276/3945/a4f47292/5a1692eeN105a64b4.png"
+          },
+          {
+            "cat_id": 1112,
+            "cat_pid": 11,
+            "cat_name": "华为",
+            "cat_icon": "//img14.360buyimg.com/focus/s140x140_jfs/t11929/135/2372293765/1396/e103ec31/5a1692e2Nbea6e136.jpg"
+          },
+          {
+            "cat_id": 1113,
+            "cat_pid": 11,
+            "cat_name": "荣耀",
+            "cat_icon": "//img10.360buyimg.com/focus/s140x140_jfs/t12178/348/911080073/4732/db0ad9c7/5a1692e2N6df7c609.jpg"
+          },
+          {
+            "cat_id": 1114,
+            "cat_pid": 11,
+            "cat_name": "iPhone",
+            "cat_icon": "//img20.360buyimg.com/focus/s140x140_jfs/t13759/194/897734755/2493/1305d4c4/5a1692ebN8ae73077.jpg"
+          },
+          {
+            "cat_id": 1115,
+            "cat_pid": 11,
+            "cat_name": "vivo",
+            "cat_icon": "//img11.360buyimg.com/focus/s140x140_jfs/t11014/359/2341377211/2777/1755c29c/5a169244Nff0179e0.png"
+          },
+          {
+            "cat_id": 1116,
+            "cat_pid": 11,
+            "cat_name": "OPPO",
+            "cat_icon": "//img13.360buyimg.com/focus/s140x140_jfs/t13036/273/932026474/2570/a3517c7d/5a169254N4bbbd9fb.png"
+          },
+          {
+            "cat_id": 1117,
+            "cat_pid": 11,
+            "cat_name": "魅族",
+            "cat_icon": "//img20.360buyimg.com/focus/s140x140_jfs/t12820/326/909017718/7138/68cde747/5a169243N40eca33c.jpg"
+          },
+          {
+            "cat_id": 1118,
+            "cat_pid": 11,
+            "cat_name": "三星",
+            "cat_icon": "//img13.360buyimg.com/focus/s140x140_jfs/t11509/131/2348573811/3425/4f20fe6/5a16925aN8a6dfd03.png"
+          },
+          {
+            "cat_id": 1119,
+            "cat_pid": 11,
+            "cat_name": "一加",
+            "cat_icon": "//img13.360buyimg.com/focus/s140x140_jfs/t11209/71/2351231464/4158/fc0c415c/5a16923fNfc14307e.jpg"
+          },
+          {
+            "cat_id": 1110,
+            "cat_pid": 11,
+            "cat_name": "努比亚",
+            "cat_icon": "//img11.360buyimg.com/focus/s140x140_jfs/t1/108301/34/7712/3254/5e5f0de9E4ca2f4b5/c664966ee1d36d47.jpg"
+          }
+        ]
+      },
+      {
+        "cat_id": 12,
+        "cat_pid": 1,
+        "cat_name": "手机通讯",
+        "children": [
+          {
+            "cat_id": 1121,
+            "cat_pid": 12,
+            "cat_name": "老人机",
+            "cat_icon": "//img12.360buyimg.com/focus/s140x140_jfs/t11461/339/2354953633/8254/8c8c50d3/5a169217N5d1b842e.jpg"
+          },
+          {
+            "cat_id": 1122,
+            "cat_pid": 12,
+            "cat_name": "手机",
+            "cat_icon": "//img10.360buyimg.com/focus/s140x140_jfs/t11503/241/2246064496/4783/cea2850e/5a169216N0701c7f1.jpg"
+          },
+          {
+            "cat_id": 1123,
+            "cat_pid": 12,
+            "cat_name": "全屏手机",
+            "cat_icon": "//img30.360buyimg.com/focus/s140x140_jfs/t18955/187/1309277884/11517/fe100782/5ac48d27N3f5bb821.jpg"
+          },
+          {
+            "cat_id": 1124,
+            "cat_pid": 12,
+            "cat_name": "游戏手机",
+            "cat_icon": "//img11.360buyimg.com/focus/s140x140_jfs/t11470/45/2362968077/2689/fb36d9a0/5a169238Nc8f0882b.jpg"
+          },
+          {
+            "cat_id": 1125,
+            "cat_pid": 12,
+            "cat_name": "拍照手机",
+            "cat_icon": "//img20.360buyimg.com/focus/s140x140_jfs/t12022/66/917351804/2257/7ddc58e5/5a169232Ndf76f53c.jpg"
+          },
+          {
+            "cat_id": 1126,
+            "cat_pid": 12,
+            "cat_name": "对讲机",
+            "cat_icon": "//img30.360buyimg.com/focus/s140x140_jfs/t13255/192/958298391/1687/5c7e3c53/5a169204Nd4aa27bb.jpg"
+          },
+          {
+            "cat_id": 1127,
+            "cat_pid": 12,
+            "cat_name": "京东回收",
+            "cat_icon": "//img30.360buyimg.com/focus/s140x140_jfs/t13246/188/925975876/8794/686dbb9c/5a1691e0N62f626e3.jpg"
+          },
+          {
+            "cat_id": 1128,
+            "cat_pid": 12,
+            "cat_name": "女性手机",
+            "cat_icon": "//img13.360buyimg.com/focus/s140x140_jfs/t1/109596/11/7650/2742/5e5f1074E76a2364e/09b2b19f13691c60.jpg"
+          },
+          {
+            "cat_id": 1129,
+            "cat_pid": 12,
+            "cat_name": "京东维修",
+            "cat_icon": "//img20.360buyimg.com/focus/s140x140_jfs/t11644/236/2358207967/6141/e2d71825/5a169205N84a49a6a.jpg"
+          }
+        ]
+      },
+      {
+        "cat_id": 13,
+        "cat_pid": 1,
+        "cat_name": "运营商",
+        "children": [
+          {
+            "cat_id": 1131,
+            "cat_pid": 13,
+            "cat_name": "合约机",
+            "cat_icon": "//img20.360buyimg.com/focus/s140x140_jfs/t13309/121/902275259/3700/e9f22529/5a168e83Nb1a35aac.png"
+          },
+          {
+            "cat_id": 1132,
+            "cat_pid": 13,
+            "cat_name": "选号卡",
+            "cat_icon": "//img10.360buyimg.com/focus/s140x140_jfs/t11515/106/2342900928/7913/5a606e3f/5a168e7eNdd5d0121.png"
+          },
+          {
+            "cat_id": 1133,
+            "cat_pid": 13,
+            "cat_name": "办套餐",
+            "cat_icon": "//img20.360buyimg.com/focus/s140x140_jfs/t14146/201/916948302/5272/8ae80f8e/5a168e78N78b24a8e.jpg"
+          },
+          {
+            "cat_id": 1134,
+            "cat_pid": 13,
+            "cat_name": "京东网厅",
+            "cat_icon": "//img12.360buyimg.com/focus/s140x140_jfs/t1/86212/5/13882/10155/5e5f10b7E0130f150/75eef80d6e68bba2.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cat_id": 2,
+    "cat_name": "家用电器",
+    "children": [
+      {
+        "cat_id": 21,
+        "cat_pid": 2,
+        "cat_name": "电视",
+        "children": [
+          {
+            "cat_id": 2111,
+            "cat_pid": 21,
+            "cat_name": "互联网电视",
+            "cat_icon": "//img12.360buyimg.com/focus/s140x140_jfs/t11842/356/2416901099/2164/ab77fbaa/5a17f71eN25360979.jpg"
+          },
+          {
+            "cat_id": 2112,
+            "cat_pid": 21,
+            "cat_name": "4K超高清",
+            "cat_icon": "//img30.360buyimg.com/focus/s140x140_jfs/t11386/179/2470866031/2353/dfc7d933/5a17f72cN97075084.jpg"
+          },
+          {
+            "cat_id": 2113,
+            "cat_pid": 21,
+            "cat_name": "超薄电视",
+            "cat_icon": "//img12.360buyimg.com/focus/s140x140_jfs/t13318/98/977001060/2750/23b1f7d1/5a17f724N6b00846c.jpg"
+          },
+          {
+            "cat_id": 2114,
+            "cat_pid": 21,
+            "cat_name": "曲面电视",
+            "cat_icon": "//img13.360buyimg.com/focus/s140x140_jfs/t11497/215/2431437398/2303/13a78d00/5a17f73eN1ed10bce.jpg"
+          },
+          {
+            "cat_id": 2115,
+            "cat_pid": 21,
+            "cat_name": "量子点电视",
+            "cat_icon": "//img11.360buyimg.com/focus/s140x140_jfs/t13741/85/997235602/2442/d633a9d1/5a17f726N196bd924.jpg"
+          },
+          {
+            "cat_id": 2116,
+            "cat_pid": 21,
+            "cat_name": "HDR",
+            "cat_icon": "//img10.360buyimg.com/focus/s140x140_jfs/t13675/83/1003983777/1869/5025c50c/5a17f719N7371175e.jpg"
+          },
+          {
+            "cat_id": 2117,
+            "cat_pid": 21,
+            "cat_name": "电视配件",
+            "cat_icon": "//img20.360buyimg.com/focus/s140x140_jfs/t11704/206/2456199866/2326/c82043c8/5a17f71bN47c72a89.jpg"
+          },
+          {
+            "cat_id": 2118,
+            "cat_pid": 21,
+            "cat_name": "OLED",
+            "cat_icon": "//img13.360buyimg.com/focus/s140x140_jfs/t13540/87/982529943/2109/a637038c/5a17f70fN00d172ce.jpg"
+          }
+        ]
+      },
+      {
+        "cat_id": 22,
+        "cat_pid": 2,
+        "cat_name": "冰箱",
+        "children": [
+          {
+            "cat_id": 2121,
+            "cat_pid": 22,
+            "cat_name": "全部",
+            "cat_icon": "//img10.360buyimg.com/focus/s140x140_jfs/t14047/217/992011228/3503/5b1fa21a/5a17f699N94996c85.jpg"
+          },
+          {
+            "cat_id": 2122,
+            "cat_pid": 22,
+            "cat_name": "双门冰箱",
+            "cat_icon": "//img12.360buyimg.com/focus/s140x140_jfs/t13153/44/964603695/1011/21d660d2/5a17f6aeN280056ea.jpg"
+          },
+          {
+            "cat_id": 2123,
+            "cat_pid": 22,
+            "cat_name": "对开门冰箱",
+            "cat_icon": "//img20.360buyimg.com/focus/s140x140_jfs/t13588/266/943842715/1088/c4ae40e4/5a17f6c5Ne56d7e26.jpg"
+          },
+          {
+            "cat_id": 2124,
+            "cat_pid": 22,
+            "cat_name": "十字对开门",
+            "cat_icon": "//img14.360buyimg.com/focus/s140x140_jfs/t13711/311/977302673/2235/1a734ffc/5a17f6caNd7a7e0aa.jpg"
+          },
+          {
+            "cat_id": 2125,
+            "cat_pid": 22,
+            "cat_name": "三门冰箱",
+            "cat_icon": "//img10.360buyimg.com/focus/s140x140_jfs/t12247/42/992183546/1010/e5504689/5a17f6aeN47ef140c.jpg"
+          },
+          {
+            "cat_id": 2126,
+            "cat_pid": 22,
+            "cat_name": "单门冰箱",
+            "cat_icon": "//img12.360buyimg.com/focus/s140x140_jfs/t13180/287/985506867/3709/3aab0a22/5a17f6aeN55f73ab4.jpg"
+          },
+          {
+            "cat_id": 2127,
+            "cat_pid": 22,
+            "cat_name": "多门冰箱",
+            "cat_icon": "//img11.360buyimg.com/focus/s140x140_jfs/t14092/321/992718608/844/c060eb1/5a17f6c0N8cf0d399.jpg"
+          },
+          {
+            "cat_id": 2128,
+            "cat_pid": 22,
+            "cat_name": "冷柜/冰吧",
+            "cat_icon": "//img12.360buyimg.com/focus/s140x140_jfs/t12928/273/1007467483/3549/52dad666/5a17f69eN1d10e257.jpg"
+          },
+          {
+            "cat_id": 2129,
+            "cat_pid": 22,
+            "cat_name": "冰箱配件",
+            "cat_icon": "//img10.360buyimg.com/focus/s140x140_jfs/t13642/254/981330701/2754/e38f6249/5a17f69fN782e2397.jpg"
+          }
+        ]
+      },
+      {
+        "cat_id": 23,
+        "cat_pid": 2,
+        "cat_name": "洗衣机",
+        "children": [
+          {
+            "cat_id": 2131,
+            "cat_pid": 23,
+            "cat_name": "波轮洗衣机",
+            "cat_icon": "//img13.360buyimg.com/focus/s140x140_jfs/t7927/184/4204864436/1170/5c6edbfd/5a17f6e7Nd3e178e9.jpg"
+          },
+          {
+            "cat_id": 2132,
+            "cat_pid": 23,
+            "cat_name": "滚筒洗衣机",
+            "cat_icon": "//img12.360buyimg.com/focus/s140x140_jfs/t12481/129/1018625238/1840/43d49869/5a17f6eaN9ec936de.jpg"
+          },
+          {
+            "cat_id": 2133,
+            "cat_pid": 23,
+            "cat_name": "全部",
+            "cat_icon": "//img14.360buyimg.com/focus/s140x140_jfs/t11683/55/2479822092/6785/8133604c/5a17f6d4Ne2a84dc3.jpg"
+          },
+          {
+            "cat_id": 2134,
+            "cat_pid": 23,
+            "cat_name": "洗烘一体机",
+            "cat_icon": "//img10.360buyimg.com/focus/s140x140_jfs/t11596/353/2418450536/1557/950e51b6/5a17f6d9Nd153842e.jpg"
+          },
+          {
+            "cat_id": 2135,
+            "cat_pid": 23,
+            "cat_name": "迷你洗衣机",
+            "cat_icon": "//img12.360buyimg.com/focus/s140x140_jfs/t13951/348/993649154/1944/da120406/5a17f6f4N217289e8.jpg"
+          },
+          {
+            "cat_id": 2136,
+            "cat_pid": 23,
+            "cat_name": "洗衣机配件",
+            "cat_icon": "//img13.360buyimg.com/focus/s140x140_jfs/t11494/337/2455709327/1570/97d5c835/5a17f6daN7348da74.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cat_id": 3,
+    "cat_name": "美妆护肤",
+    "children": [
+      {
+        "cat_id": 31,
+        "cat_pid": 3,
+        "cat_name": "彩妆",
+        "children": [
+          {
+            "cat_id": 3111,
+            "cat_pid": 31,
+            "cat_name": "口红",
+            "cat_icon": "//img10.360buyimg.com/focus/s140x140_jfs/t17503/252/2512889132/27294/443c2fac/5afd3c33N4a033cfa.jpg"
+          },
+          {
+            "cat_id": 3112,
+            "cat_pid": 31,
+            "cat_name": "气垫",
+            "cat_icon": "//img30.360buyimg.com/focus/s140x140_jfs/t21397/271/121131902/15428/ac689106/5afd3c2eNa0edf02a.jpg"
+          },
+          {
+            "cat_id": 3113,
+            "cat_pid": 31,
+            "cat_name": "美甲",
+            "cat_icon": "//img11.360buyimg.com/focus/s140x140_jfs/t18340/344/2560965947/8933/468d229f/5afd3c2aN62a8f842.jpg"
+          },
+          {
+            "cat_id": 3114,
+            "cat_pid": 31,
+            "cat_name": "隔离霜/妆前乳",
+            "cat_icon": "//img13.360buyimg.com/focus/s140x140_jfs/t21628/195/131387297/32697/2075f60f/5afd3c24N07e86c2e.jpg"
+          },
+          {
+            "cat_id": 3115,
+            "cat_pid": 31,
+            "cat_name": "粉底液/膏",
+            "cat_icon": "//img20.360buyimg.com/focus/s140x140_jfs/t20692/251/127894832/28255/9c74e1cd/5afd3c1eN4eb4f341.jpg"
+          },
+          {
+            "cat_id": 3116,
+            "cat_pid": 31,
+            "cat_name": "粉饼",
+            "cat_icon": "//img20.360buyimg.com/focus/s140x140_jfs/t17074/143/2515210475/30879/efdf7ef1/5afd3c19N9a112423.jpg"
+          },
+          {
+            "cat_id": 3117,
+            "cat_pid": 31,
+            "cat_name": "BB霜",
+            "cat_icon": "//img14.360buyimg.com/focus/s140x140_jfs/t16645/147/2558195685/8575/755d84b6/5afd3c14N3a511758.jpg"
+          },
+          {
+            "cat_id": 3118,
+            "cat_pid": 31,
+            "cat_name": "CC霜",
+            "cat_icon": "//img12.360buyimg.com/focus/s140x140_jfs/t18229/23/2519017882/29961/378194c7/5afd3c0fNf14f2ed1.jpg"
+          },
+          {
+            "cat_id": 3119,
+            "cat_pid": 31,
+            "cat_name": "蜜粉/散粉",
+            "cat_icon": "//img30.360buyimg.com/focus/s140x140_jfs/t20665/216/125618350/25621/cfc5119d/5afd3c0aNed60a1bd.jpg"
+          }
+        ]
+      },
+      {
+        "cat_id": 32,
+        "cat_pid": 3,
+        "cat_name": "美妆工具",
+        "children": [
+          {
+            "cat_id": 3121,
+            "cat_pid": 32,
+            "cat_name": "双眼皮贴",
+            "cat_icon": "//img11.360buyimg.com/focus/s140x140_jfs/t19060/117/2539588431/17440/6f214ff7/5afd3bc6N2c61707c.jpg"
+          },
+          {
+            "cat_id": 3122,
+            "cat_pid": 32,
+            "cat_name": "化妆棉",
+            "cat_icon": "//img10.360buyimg.com/focus/s140x140_jfs/t16696/291/2517590241/21379/1dfecdfd/5afd3bc2N2c9377b7.jpg"
+          },
+          {
+            "cat_id": 3123,
+            "cat_pid": 32,
+            "cat_name": "化妆刷",
+            "cat_icon": "//img14.360buyimg.com/focus/s140x140_jfs/t18268/265/2568284333/12427/b6dd4f98/5afd3bbdN0b87943b.jpg"
+          },
+          {
+            "cat_id": 3124,
+            "cat_pid": 32,
+            "cat_name": "粉扑/洗脸扑",
+            "cat_icon": "//img14.360buyimg.com/focus/s140x140_jfs/t21829/118/116194778/20548/60fece14/5afd3bb8N9e1eed58.jpg"
+          },
+          {
+            "cat_id": 3125,
+            "cat_pid": 32,
+            "cat_name": "假睫毛",
+            "cat_icon": "//img13.360buyimg.com/focus/s140x140_jfs/t21445/185/120884304/18781/54443f70/5afd3bb3N6955aa67.jpg"
+          },
+          {
+            "cat_id": 3126,
+            "cat_pid": 32,
+            "cat_name": "睫毛夹",
+            "cat_icon": "//img30.360buyimg.com/focus/s140x140_jfs/t20650/329/121345002/12836/472a35c2/5afd3badN235377a2.jpg"
+          },
+          {
+            "cat_id": 3127,
+            "cat_pid": 32,
+            "cat_name": "修眉刀",
+            "cat_icon": "//img10.360buyimg.com/focus/s140x140_jfs/t18550/252/2577078754/24352/db189645/5afd3ba8N9c3a0301.jpg"
+          },
+          {
+            "cat_id": 3128,
+            "cat_pid": 32,
+            "cat_name": "美妆工具套装",
+            "cat_icon": "//img14.360buyimg.com/focus/s140x140_jfs/t17728/179/2497043882/41597/2617bac0/5afd3ba2N3d1558c2.jpg"
+          },
+          {
+            "cat_id": 3129,
+            "cat_pid": 32,
+            "cat_name": "美甲工具",
+            "cat_icon": "//img11.360buyimg.com/focus/s140x140_jfs/t22222/87/121383950/5943/88605e07/5afd3b9dNbc82998f.jpg"
+          },
+          {
+            "cat_id": 3130,
+            "cat_pid": 32,
+            "cat_name": "吸油纸",
+            "cat_icon": "//img14.360buyimg.com/focus/s140x140_jfs/t18997/105/2525000107/23080/f284e99/5afd3b94Nc639af2a.jpg"
+          }
+        ]
+      },
+      {
+        "cat_id": 33,
+        "cat_pid": 3,
+        "cat_name": "香水",
+        "children": [
+          {
+            "cat_id": 3131,
+            "cat_pid": 33,
+            "cat_name": "女士香水",
+            "cat_icon": "//img13.360buyimg.com/focus/s140x140_jfs/t21634/217/114542271/9364/cbd83d13/5afd3c4bNc8d91bef.jpg"
+          },
+          {
+            "cat_id": 3132,
+            "cat_pid": 33,
+            "cat_name": "男士香水",
+            "cat_icon": "//img14.360buyimg.com/focus/s140x140_jfs/t19390/1/2506793243/6166/d775fccd/5afd3c46N0888d2dc.jpg"
+          },
+          {
+            "cat_id": 3133,
+            "cat_pid": 33,
+            "cat_name": "香水礼盒",
+            "cat_icon": "//img13.360buyimg.com/focus/s140x140_jfs/t22138/207/122377252/6070/3a373b3c/5afd3c42Ne4e18819.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cat_id": 4,
+    "cat_name": "计生情趣"
+  },
+  {
+    "cat_id": 5,
+    "cat_name": "电脑办公"
+  },
+  {
+    "cat_id": 6,
+    "cat_name": "家居厨具"
+  },
+  {
+    "cat_id": 7,
+    "cat_name": "男装"
+  },
+  {
+    "cat_id": 8,
+    "cat_name": "男鞋"
+  },
+  {
+    "cat_id": 9,
+    "cat_name": "女装"
+  },
+  {
+    "cat_id": 10,
+    "cat_name": "女鞋"
+  },
+  {
+    "cat_id": 11,
+    "cat_name": "医药保健"
+  },
+  {
+    "cat_id": 12,
+    "cat_name": "酒水饮料"
+  },
+  {
+    "cat_id": 13,
+    "cat_name": "运动户外"
+  },
+  {
+    "cat_id": 14,
+    "cat_name": "箱包手袋"
+  },
+  {
+    "cat_id": 15,
+    "cat_name": "钟表珠宝"
+  },
+  {
+    "cat_id": 16,
+    "cat_name": "农资绿植"
+  },
+  {
+    "cat_id": 17,
+    "cat_name": "生活旅行"
+  },
+  {
+    "cat_id": 18,
+    "cat_name": "艺术邮币"
+  },
+  {
+    "cat_id": 19,
+    "cat_name": "特产馆"
+  },
+  {
+    "cat_id": 20,
+    "cat_name": "国际名牌"
+  }
+]

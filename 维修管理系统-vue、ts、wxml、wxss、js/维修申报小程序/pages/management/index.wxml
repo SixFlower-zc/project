@@ -1,0 +1,4 @@
+<!--pages/management/index.wxml-->
+<view class="view-box">
+  <text>管理</text>
+</view>

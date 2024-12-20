@@ -1,0 +1,748 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s linear;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  background: url(../img/body-bg.jpg) no-repeat center center;
+  background-size: cover;
+  font-size: 14px;
+}
+
+body {
+  width: 1300px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.body {
+  background-color: #fff;
+  box-shadow: 0 4px 10px 0 rgba(69, 61, 80, 0.08);
+}
+
+header {
+  width: 1300px;
+  padding: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 4px 10px 0 rgba(69, 61, 80, 0.08);
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+
+header > .nav {
+  width: 1140px;
+  height: 48px;
+  margin: 0 auto;
+  line-height: 48px;
+  padding: 0 12px;
+}
+
+header > .nav > img {
+  height: 22px;
+  float: left;
+  margin-top: 13px;
+}
+
+header > .nav > span {
+  width: 24px;
+  height: 24px;
+  font-size: 20px;
+  font-weight: bold;
+  display: none;
+  float: right;
+}
+
+header > .nav > ul {
+  float: right;
+}
+
+header > .nav > ul > li {
+  display: inline-block;
+}
+
+header > .nav > ul > li > a {
+  color: #002446;
+  padding: 6px 10px;
+  margin: 0 7px;
+}
+
+header > .nav > ul > li:hover a {
+  color: #0466c8;
+}
+
+header > .nav > ul > li .san::after {
+  display: inline-block;
+  content: "";
+  border-width: 5px;
+  border-style: solid;
+  border-color: #002446 transparent transparent transparent;
+  margin-left: 3px;
+}
+
+header > .nav > ul > li:hover .san::after {
+  border-top-color: #0466c8;
+}
+
+section.hero {
+  position: relative;
+  top: 0;
+}
+
+section.hero .container {
+  width: 1140px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 12px;
+  overflow: auto;
+}
+
+section.hero .container .title {
+  width: 1116px;
+  background: url(../img/title-bg.jpg) no-repeat center center;
+  background-size: cover;
+  margin-top: 150px;
+}
+
+section.hero .container .title .txt {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 56px 0;
+  background-color: rgba(237, 237, 237, 0.5);
+}
+
+section.hero .container .title .txt h1 {
+  font-size: 43px;
+  font-weight: normal;
+  line-height: 43px;
+  margin-bottom: 8px;
+}
+
+section.hero .container .title .txt p {
+  line-height: 21px;
+}
+
+section.content {
+  padding: 60px 0;
+}
+
+section.content .container {
+  width: 1140px;
+  height: auto;
+  margin: 0 auto;
+}
+
+section.content .container ul li {
+  display: inline-block;
+}
+
+section.content .container ul li a {
+  padding: 6px 14px;
+  margin-right: 20px;
+  color: #002446;
+}
+
+section.content .container ul li a:hover {
+  background-color: #0466c8;
+  border-radius: 5px;
+  color: #fff;
+}
+
+section.content .container ul li a.active {
+  background-color: #0466c8;
+  color: #fff;
+}
+
+section.content .container p {
+  color: #99a1a9;
+  line-height: 25px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+section.content .imgS {
+  width: 1140px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-evenly;
+}
+
+section.content .imgS > div {
+  width: 23%;
+  float: left;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+section.content .imgS > div img {
+  width: 100%;
+}
+
+section.content .imgS > div > div {
+  width: 100%;
+  height: 30%;
+  background-color: #fff;
+  position: absolute;
+  bottom: 10%;
+  opacity: 0;
+}
+
+section.content .imgS > div > div p {
+  height: 50%;
+  text-align: center;
+}
+
+section.content .imgS > div:hover > div {
+  opacity: 1;
+}
+
+section.content button {
+  display: block;
+  width: 128px;
+  height: 40px;
+  background-color: #0466c8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 40px auto 0;
+  cursor: pointer;
+}
+
+section.content button:hover {
+  background-color: #002053;
+}
+
+div.logo {
+  width: 1140px;
+  height: auto;
+  margin: 0 auto;
+  overflow: auto;
+  margin-bottom: 40px;
+}
+
+div.logo div {
+  float: left;
+  padding: 16px 12px;
+  width: 25%;
+  opacity: 0.3;
+}
+
+div.logo div img {
+  width: 100%;
+}
+
+div.logo div:hover {
+  opacity: 1;
+}
+
+section.lists {
+  padding: 48px 0 60px;
+  background-color: #f6f8fb;
+  overflow: auto;
+}
+
+section.lists div.container {
+  width: 1140px;
+  height: auto;
+  margin: 0 auto;
+}
+
+section.lists div.container > :nth-child(1) {
+  width: 475px;
+  height: 238px;
+  padding: 24px 12px 0;
+  float: left;
+}
+
+section.lists div.container > :nth-child(1) .logo {
+  width: 451px;
+  height: 62px;
+}
+
+section.lists div.container > :nth-child(1) .logo img {
+  height: 22px;
+}
+
+section.lists div.container > :nth-child(1) p {
+  line-height: 24px;
+}
+
+section.lists div.container > :nth-child(1) p:nth-of-type(1) {
+  font-weight: bold;
+}
+
+section.lists div.container > :nth-child(1) p:nth-of-type(2) {
+  color: #ccc;
+}
+
+section.lists div.container > :nth-child(1) :last-child {
+  color: #0054c2;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+section.lists div.container > :nth-child(1) ~ div {
+  width: 190px;
+  height: 238px;
+  padding: 24px 12px 0;
+  float: right;
+}
+
+section.lists div.container > :nth-child(1) ~ div h4 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+section.lists div.container > :nth-child(1) ~ div ul {
+  margin: 16px 0;
+}
+
+section.lists div.container > :nth-child(1) ~ div ul li {
+  padding: 4px 0;
+  line-height: 24px;
+}
+
+section.lists div.container > :nth-child(1) ~ div ul li a {
+  color: #9699ac;
+}
+
+section.lists div.container > :nth-child(1) ~ div ul li a:hover {
+  color: #0466c8;
+}
+
+footer {
+  background-color: #37445a;
+}
+
+footer .container {
+  width: 1140px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  line-height: 34px;
+  color: #fff;
+}
+
+footer .container .left {
+  width: 50%;
+  padding: 16px 12px;
+}
+
+footer .container .left a {
+  color: #1c7aff;
+}
+
+footer .container .left a:hover {
+  color: #2c489c;
+}
+
+footer .container .right {
+  width: 50%;
+  padding: 16px 12px;
+}
+
+footer .container .right span {
+  display: block;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #333;
+  text-align: center;
+  float: right;
+  margin-left: 10px;
+}
+
+footer .container .right span:hover {
+  background-color: #999;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s linear;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1330px) {
+  body {
+    width: auto;
+  }
+  header {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1200px) {
+  body {
+    width: auto;
+  }
+  header {
+    width: 100%;
+  }
+  header > .nav {
+    width: 960px;
+  }
+  header > .nav > span {
+    display: block;
+  }
+  header > .nav span:hover ~ ul {
+    height: 336px;
+  }
+  header > .nav > ul {
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    height: 0;
+    overflow: hidden;
+    left: 0;
+    background-color: #fff;
+    z-index: 2;
+  }
+  header > .nav > ul li {
+    display: block;
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+  }
+  section.hero .container {
+    width: 960px;
+  }
+  section.hero .container .title {
+    width: 936px;
+  }
+  section.content .container {
+    width: 960px;
+  }
+  section.content .imgS {
+    width: 960px;
+  }
+  div.logo {
+    width: 960px;
+  }
+  section.lists div.container {
+    width: 960px;
+  }
+  footer .container {
+    width: 960px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  body {
+    width: auto;
+  }
+  header {
+    width: 100%;
+  }
+  header > .nav {
+    width: 720px;
+  }
+  header > .nav > span {
+    display: block;
+  }
+  header > .nav span:hover ~ ul {
+    height: 336px;
+  }
+  header > .nav > ul {
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    height: 0;
+    overflow: hidden;
+    left: 0;
+    background-color: #fff;
+    z-index: 2;
+  }
+  header > .nav > ul li {
+    display: block;
+    width: 720px;
+    height: auto;
+    margin: 0 auto;
+  }
+  section.hero .container {
+    width: 720px;
+  }
+  section.hero .container .title {
+    width: 696px;
+  }
+  section.content .container {
+    width: 720px;
+  }
+  section.content .imgS {
+    width: 720px;
+  }
+  section.content .imgS > div {
+    width: 48%;
+  }
+  div.logo {
+    width: 720px;
+  }
+  div.logo div {
+    width: 50%;
+  }
+  section.lists div.container {
+    width: 720px;
+  }
+  section.lists div.container > :nth-child(1) {
+    width: 336px;
+  }
+  footer .container {
+    width: 720px;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 768px) {
+  body {
+    width: auto;
+  }
+  header {
+    width: 100%;
+  }
+  header > .nav {
+    width: 540px;
+  }
+  header > .nav > span {
+    display: block;
+  }
+  header > .nav span:hover ~ ul {
+    height: 336px;
+  }
+  header > .nav > ul {
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    height: 0;
+    overflow: hidden;
+    left: 0;
+    background-color: #fff;
+    z-index: 2;
+  }
+  header > .nav > ul li {
+    display: block;
+    width: 540px;
+    height: auto;
+    margin: 0 auto;
+  }
+  section.hero .container {
+    width: 540px;
+  }
+  section.hero .container .title {
+    width: 516px;
+  }
+  section.content .container {
+    width: 540px;
+  }
+  section.content .imgS {
+    width: 540px;
+  }
+  section.content .imgS > div {
+    width: 100%;
+  }
+  div.logo {
+    width: 540px;
+  }
+  div.logo div {
+    width: 25%;
+  }
+  section.lists div.container {
+    width: 540px;
+  }
+  section.lists div.container > :nth-child(1) {
+    width: 100%;
+  }
+  section.lists div.container > :nth-child(1) ~ div {
+    width: 100%;
+  }
+  footer .container {
+    width: 540px;
+    display: block;
+  }
+  footer .container .right {
+    padding: 0;
+  }
+  footer .container .right span {
+    float: none;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 575px) and (min-width: 490px) {
+  body {
+    width: auto;
+  }
+  header {
+    width: 100%;
+  }
+  header > .nav {
+    width: 100%;
+  }
+  header > .nav > span {
+    display: block;
+  }
+  header > .nav span:hover ~ ul {
+    height: 336px;
+  }
+  header > .nav > ul {
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    height: 0;
+    overflow: hidden;
+    left: 0;
+    background-color: #fff;
+    z-index: 2;
+  }
+  header > .nav > ul li {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  section.hero .container {
+    width: 100%;
+  }
+  section.hero .container .title {
+    width: calc(100% - 24px);
+  }
+  section.content .container {
+    width: 100%;
+  }
+  section.content .imgS {
+    width: 100%;
+  }
+  section.content .imgS > div {
+    width: 100%;
+  }
+  div.logo {
+    width: 100%;
+  }
+  div.logo div {
+    width: 50%;
+  }
+  section.lists div.container {
+    width: 100%;
+  }
+  section.lists div.container > :nth-child(1) {
+    width: 100%;
+  }
+  section.lists div.container > :nth-child(1) ~ div {
+    width: 100%;
+  }
+  footer .container {
+    width: 100%;
+    display: block;
+  }
+  footer .container .right {
+    padding: 0;
+  }
+  footer .container .right span {
+    float: none;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  body {
+    width: 490px;
+  }
+  header {
+    width: 100%;
+  }
+  header > .nav {
+    width: 100%;
+  }
+  header > .nav > span {
+    display: block;
+  }
+  header > .nav span:hover ~ ul {
+    height: 336px;
+  }
+  header > .nav > ul {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    height: 0;
+    overflow: hidden;
+    left: 0;
+    background-color: #fff;
+    z-index: 2;
+  }
+  header > .nav > ul li {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  section.hero .container {
+    width: 100%;
+  }
+  section.hero .container .title {
+    width: calc(100% - 24px);
+  }
+  section.content .container {
+    width: 100%;
+  }
+  section.content .imgS {
+    width: 100%;
+  }
+  section.content .imgS > div {
+    width: 100%;
+  }
+  div.logo {
+    width: 100%;
+  }
+  div.logo div {
+    width: 50%;
+  }
+  section.lists div.container {
+    width: 100%;
+  }
+  section.lists div.container > :nth-child(1) {
+    width: 100%;
+  }
+  section.lists div.container > :nth-child(1) ~ div {
+    width: 100%;
+  }
+  footer .container {
+    width: 100%;
+    display: block;
+  }
+  footer .container .right {
+    padding: 0;
+  }
+  footer .container .right span {
+    float: none;
+    display: inline-block;
+  }
+}

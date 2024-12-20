@@ -1,0 +1,942 @@
+{
+  "households": [
+    {
+      "id": "H202410001",
+      "name": "李明",
+      "gender": "男",
+      "age": 35,
+      "phone": "13800138015",
+      "address": "地下室",
+      "date": "2022-01-10",
+      "remarks": "住地下室"
+    },
+    {
+      "id": "H202410002",
+      "name": "王芳",
+      "gender": "女",
+      "age": 28,
+      "phone": "13800138016",
+      "address": "小区B栋202室",
+      "date": "2021-03-15",
+      "remarks": "喜欢运动"
+    },
+    {
+      "id": "H202410003",
+      "name": "张伟",
+      "gender": "男",
+      "age": 45,
+      "phone": "13800138017",
+      "address": "小区C栋303室",
+      "date": "2019-07-01",
+      "remarks": "热爱摄影"
+    },
+    {
+      "id": "H202410004",
+      "name": "赵六",
+      "gender": "男",
+      "age": 30,
+      "phone": "13800138018",
+      "address": "小区A栋102室",
+      "date": "2020-02-10",
+      "remarks": "喜欢旅游"
+    },
+    {
+      "id": "H202410005",
+      "name": "钱七",
+      "gender": "女",
+      "age": 27,
+      "phone": "13800138019",
+      "address": "小区B栋203室",
+      "date": "2021-06-18",
+      "remarks": "爱好音乐"
+    },
+    {
+      "id": "H202410006",
+      "name": "孙八",
+      "gender": "男",
+      "age": 40,
+      "phone": "13800138020",
+      "address": "小区C栋304室",
+      "date": "2018-11-25",
+      "remarks": "爱好摄影"
+    },
+    {
+      "id": "H202410007",
+      "name": "周九",
+      "gender": "女",
+      "age": 21,
+      "phone": "13800138021",
+      "address": "小区A栋103室",
+      "date": "2022-09-01",
+      "remarks": "喜欢画画"
+    },
+    {
+      "id": "H202410008",
+      "name": "郑十",
+      "gender": "男",
+      "age": 50,
+      "phone": "13800138022",
+      "address": "小区B栋204室",
+      "date": "2019-05-23",
+      "remarks": "喜欢读书"
+    },
+    {
+      "id": "H202410009",
+      "name": "吴十二",
+      "gender": "女",
+      "age": 33,
+      "phone": "13800138023",
+      "address": "小区C栋305室",
+      "date": "2020-03-12",
+      "remarks": "爱好健身"
+    },
+    {
+      "id": "H202410010",
+      "name": "冯十三",
+      "gender": "男",
+      "age": 38,
+      "phone": "13800138024",
+      "address": "小区A栋104室",
+      "date": "2021-02-25",
+      "remarks": "喜欢美食"
+    },
+    {
+      "id": "H202412204",
+      "name": "蔡徐坤",
+      "age": 66,
+      "gender": "男",
+      "phone": "1234567910",
+      "address": "偶像练习生一号嘉宾化妆室",
+      "remarks": "一个超级厉害的偶像练习生，喜欢唱跳rap",
+      "date": "2024-12-02",
+      "username": "H202412204",
+      "password": "123456"
+    }
+  ],
+  "workOrder": [
+    {
+      "id": "WO202410001",
+      "Date": "2024-10-01",
+      "faultLocation": "机房A区",
+      "contact": "李明",
+      "phone": "13800138015",
+      "described": "服务器无法启动",
+      "image": "/src/assets/images/six_flower.jpg",
+      "maintenanceMan": "李四",
+      "workOrderStatus": "已完成",
+      "remarks": "需紧急处理",
+      "price": "0",
+      "log": [
+        {
+          "id": 1,
+          "state": "创建工单",
+          "Date": "2024-10-01 09:00",
+          "person": "李明"
+        },
+        {
+          "id": 2,
+          "state": "派单",
+          "Date": "2024-10-01 09:30",
+          "person": "吴经理"
+        },
+        {
+          "id": 3,
+          "state": "上传费用",
+          "Date": "2024-10-01 10:00",
+          "person": "李四"
+        },
+        {
+          "id": 4,
+          "state": "审核完成",
+          "Date": "2024-10-01 11:00",
+          "person": "金经理"
+        },
+        {
+          "id": 5,
+          "state": "待支付",
+          "Date": "2024-10-02 12:00",
+          "person": "李明"
+        },
+        {
+          "id": 6,
+          "state": "施工中",
+          "Date": "2024-10-01 12:00",
+          "person": "李四"
+        },
+        {
+          "id": 7,
+          "state": "已完成",
+          "Date": "2024-10-01 13:00",
+          "person": "李四"
+        }
+      ]
+    },
+    {
+      "id": "WO202410002",
+      "Date": "2024-10-02",
+      "faultLocation": "机房B区",
+      "contact": "王芳",
+      "phone": "13800138016",
+      "described": "网络连接不稳定",
+      "image": "/src/assets/images/six_flower.jpg",
+      "maintenanceMan": "赵六",
+      "workOrderStatus": "已完成",
+      "remarks": "需要尽快处理",
+      "price": "0",
+      "log": [
+        {
+          "id": 1,
+          "state": "创建工单",
+          "Date": "2024-10-02 09:00",
+          "person": "王芳"
+        },
+        {
+          "id": 2,
+          "state": "派单",
+          "Date": "2024-10-02 09:30",
+          "person": "张经理"
+        },
+        {
+          "id": 3,
+          "state": "上传费用",
+          "Date": "2024-10-02 10:30",
+          "person": "赵六"
+        },
+        {
+          "id": 4,
+          "state": "审核完成",
+          "Date": "2024-10-02 11:00",
+          "person": "金经理"
+        },
+        {
+          "id": 5,
+          "state": "待支付",
+          "Date": "2024-10-02 12:00",
+          "person": "赵六"
+        },
+        {
+          "id": 6,
+          "state": "施工中",
+          "Date": "2024-10-02 13:00",
+          "person": "赵六"
+        },
+        {
+          "id": 7,
+          "state": "已完成",
+          "Date": "2024-10-02 14:00",
+          "person": "赵六"
+        }
+      ]
+    },
+    {
+      "id": "WO202410003",
+      "Date": "2024-10-03",
+      "faultLocation": "机房C区",
+      "contact": "张伟",
+      "phone": "13800138017",
+      "described": "存储设备故障",
+      "image": "/src/assets/images/six_flower.jpg",
+      "maintenanceMan": "孙七",
+      "workOrderStatus": "已完成",
+      "remarks": "检查后需确认付款",
+      "price": "0",
+      "log": [
+        {
+          "id": 1,
+          "state": "创建工单",
+          "Date": "2024-10-03 09:00",
+          "person": "张伟"
+        },
+        {
+          "id": 2,
+          "state": "派单",
+          "Date": "2024-10-03 09:30",
+          "person": "吴经理"
+        },
+        {
+          "id": 3,
+          "state": "上传费用",
+          "Date": "2024-10-03 10:00",
+          "person": "孙七"
+        },
+        {
+          "id": 4,
+          "state": "审核完成",
+          "Date": "2024-10-03 11:00",
+          "person": "吴经理"
+        },
+        {
+          "id": 5,
+          "state": "待支付",
+          "Date": "2024-10-03 12:00",
+          "person": "孙七"
+        },
+        {
+          "id": 6,
+          "state": "施工中",
+          "Date": "2024-10-03 13:00",
+          "person": "孙七"
+        },
+        {
+          "id": 7,
+          "state": "已完成",
+          "Date": "2024-10-03 14:00",
+          "person": "孙七"
+        }
+      ]
+    },
+    {
+      "id": "WO202410004",
+      "Date": "2024-10-04",
+      "faultLocation": "机房D区",
+      "contact": "陈八",
+      "phone": "13800138003",
+      "described": "电源故障",
+      "image": "/src/assets/images/six_flower.jpg",
+      "maintenanceMan": "刘九",
+      "workOrderStatus": "已完成",
+      "remarks": "已完成初步检查",
+      "price": "0",
+      "log": [
+        {
+          "id": 1,
+          "state": "创建工单",
+          "Date": "2024-10-04 09:00",
+          "person": "陈八"
+        },
+        {
+          "id": 2,
+          "state": "派单",
+          "Date": "2024-10-04 09:30",
+          "person": "张经理"
+        },
+        {
+          "id": 3,
+          "state": "上传费用",
+          "Date": "2024-10-04 10:30",
+          "person": "刘九"
+        },
+        {
+          "id": 4,
+          "state": "审核完成",
+          "Date": "2024-10-04 11:00",
+          "person": "张经理"
+        },
+        {
+          "id": 5,
+          "state": "待支付",
+          "Date": "2024-10-04 12:00",
+          "person": "刘九"
+        },
+        {
+          "id": 6,
+          "state": "施工中",
+          "Date": "2024-10-04 13:00",
+          "person": "刘九"
+        },
+        {
+          "id": 7,
+          "state": "已完成",
+          "Date": "2024-10-04 14:00",
+          "person": "刘九"
+        }
+      ]
+    },
+    {
+      "id": "WO202410005",
+      "Date": "2024-10-05",
+      "faultLocation": "机房E区",
+      "contact": "刘十",
+      "phone": "13800138004",
+      "described": "系统异常",
+      "image": "/src/assets/images/six_flower.jpg",
+      "maintenanceMan": "黄二",
+      "workOrderStatus": "已完成",
+      "remarks": "需尽快恢复服务",
+      "price": "0",
+      "log": [
+        {
+          "id": 1,
+          "state": "创建工单",
+          "Date": "2024-10-05 09:00",
+          "person": "刘十"
+        },
+        {
+          "id": 2,
+          "state": "派单",
+          "Date": "2024-10-05 09:30",
+          "person": "吴经理"
+        },
+        {
+          "id": 3,
+          "state": "上传费用",
+          "Date": "2024-10-05 10:00",
+          "person": "黄二"
+        },
+        {
+          "id": 4,
+          "state": "审核完成",
+          "Date": "2024-10-05 11:00",
+          "person": "吴经理"
+        },
+        {
+          "id": 5,
+          "state": "待支付",
+          "Date": "2024-10-05 12:00",
+          "person": "刘十"
+        },
+        {
+          "id": 6,
+          "state": "施工中",
+          "Date": "2024-10-05 12:00",
+          "person": "黄二"
+        },
+        {
+          "id": 7,
+          "state": "已完成",
+          "Date": "2024-10-05 13:00",
+          "person": "黄二"
+        }
+      ]
+    },
+    {
+      "id": "WO202410006",
+      "Date": "2024-10-06",
+      "faultLocation": "机房A区",
+      "contact": "李明",
+      "phone": "13800138015",
+      "described": "空调故障",
+      "image": "/src/assets/images/six_flower.jpg",
+      "maintenanceMan": "赵六",
+      "workOrderStatus": "已完成",
+      "remarks": "待确认维修费用",
+      "price": "0",
+      "log": [
+        {
+          "id": 1,
+          "state": "创建工单",
+          "Date": "2024-10-06 09:00",
+          "person": "李明"
+        },
+        {
+          "id": 2,
+          "state": "派单",
+          "Date": "2024-10-06 09:30",
+          "person": "张经理"
+        },
+        {
+          "id": 3,
+          "state": "审核完成",
+          "Date": "2024-10-06 10:30",
+          "person": "金经理"
+        },
+        {
+          "id": 4,
+          "state": "待支付",
+          "Date": "2024-11-29 16:18",
+          "person": "张经理"
+        },
+        {
+          "id": 5,
+          "state": "施工中",
+          "Date": "2024-11-30 23:20",
+          "person": "张经理"
+        },
+        {
+          "id": 6,
+          "state": "已完成",
+          "Date": "2024-11-30 23:20",
+          "person": "张经理"
+        },
+        {
+          "id": 7,
+          "state": "已完成",
+          "Date": "2024-11-30 23:20",
+          "person": "张经理"
+        }
+      ]
+    },
+    {
+      "id": "WO202410007",
+      "Date": "2024-10-07",
+      "faultLocation": "机房B区",
+      "contact": "王芳",
+      "phone": "13800138016",
+      "described": "电路短路",
+      "image": "/src/assets/images/six_flower.jpg",
+      "maintenanceMan": "李四",
+      "workOrderStatus": "已完成",
+      "remarks": "紧急处理",
+      "price": "0",
+      "log": [
+        {
+          "id": 1,
+          "state": "创建工单",
+          "Date": "2024-10-07 09:00",
+          "person": "王芳"
+        },
+        {
+          "id": 2,
+          "state": "派单",
+          "Date": "2024-10-07 09:30",
+          "person": "吴经理"
+        },
+        {
+          "id": 3,
+          "state": "上传费用",
+          "Date": "2024-11-29 16:23",
+          "person": "张经理"
+        },
+        {
+          "id": 4,
+          "state": "审核完成",
+          "Date": "2024-11-29 16:26",
+          "person": "张经理"
+        },
+        {
+          "id": 5,
+          "state": "待支付",
+          "Date": "2024-11-30 23:20",
+          "person": "张经理"
+        },
+        {
+          "id": 6,
+          "state": "施工中",
+          "Date": "2024-11-30 23:20",
+          "person": "张经理"
+        },
+        {
+          "id": 7,
+          "state": "已完成",
+          "Date": "2024-11-30 23:20",
+          "person": "张经理"
+        }
+      ]
+    },
+    {
+      "id": "WO202410008",
+      "Date": "2024-10-08",
+      "faultLocation": "机房C区",
+      "contact": "张伟",
+      "phone": "13800138017",
+      "described": "服务器发热",
+      "image": "/src/assets/images/six_flower.jpg",
+      "maintenanceMan": "刘九",
+      "workOrderStatus": "订单取消",
+      "remarks": "已修复",
+      "price": "0",
+      "log": [
+        {
+          "id": 1,
+          "state": "创建工单",
+          "Date": "2024-10-07 09:30",
+          "person": "张伟"
+        },
+        {
+          "id": 2,
+          "state": "派单",
+          "Date": "2024-11-29 16:27",
+          "person": "张经理"
+        },
+        {
+          "id": 3,
+          "state": "上传费用",
+          "Date": "2024-11-29 16:27",
+          "person": "张经理"
+        },
+        {
+          "id": 4,
+          "state": "订单取消",
+          "Date": "2024-11-29 20:10",
+          "person": "张经理"
+        }
+      ]
+    },
+    {
+      "id": "WO202410009",
+      "Date": "2024-10-09",
+      "faultLocation": "机房D区",
+      "contact": "陈八",
+      "phone": "13800138003",
+      "described": "监控系统失效",
+      "image": "/src/assets/images/six_flower.jpg",
+      "maintenanceMan": "孙七",
+      "workOrderStatus": "已完成",
+      "remarks": "待确认费用",
+      "price": "0",
+      "log": [
+        {
+          "id": 1,
+          "state": "创建工单",
+          "Date": "2024-10-09 09:00",
+          "person": "陈八"
+        },
+        {
+          "id": 1,
+          "state": "派单",
+          "Date": "2024-11-28 21:57",
+          "person": "张经理"
+        },
+        {
+          "id": 3,
+          "state": "已完成",
+          "Date": "2024-11-30 23:20",
+          "person": "张经理"
+        },
+        {
+          "id": 4,
+          "state": "已完成",
+          "Date": "2024-11-30 23:20",
+          "person": "张经理"
+        },
+        {
+          "id": 5,
+          "state": "已完成",
+          "Date": "2024-11-30 23:20",
+          "person": "张经理"
+        },
+        {
+          "id": 6,
+          "state": "已完成",
+          "Date": "2024-11-30 23:20",
+          "person": "张经理"
+        },
+        {
+          "id": 7,
+          "state": "已完成",
+          "Date": "2024-11-30 23:20",
+          "person": "张经理"
+        }
+      ]
+    },
+    {
+      "id": "WO202410010",
+      "Date": "2024-10-10",
+      "faultLocation": "机房E区",
+      "contact": "刘十",
+      "phone": "13800138004",
+      "described": "打印机故障",
+      "image": "/src/assets/images/six_flower.jpg",
+      "maintenanceMan": "黄二",
+      "workOrderStatus": "已完成",
+      "remarks": "需尽快处理",
+      "price": "0",
+      "log": [
+        {
+          "id": 1,
+          "state": "创建工单",
+          "Date": "2024-10-10 09:00",
+          "person": "刘十"
+        },
+        {
+          "id": 2,
+          "state": "派单",
+          "Date": "2024-11-29 16:27",
+          "person": "张经理"
+        },
+        {
+          "id": 3,
+          "state": "上传费用",
+          "Date": "2024-11-29 16:27",
+          "person": "张经理"
+        },
+        {
+          "id": 4,
+          "state": "审核完成",
+          "Date": "2024-11-29 21:11",
+          "person": "张经理"
+        },
+        {
+          "id": 5,
+          "state": "待支付",
+          "Date": "2024-11-30 23:20",
+          "person": "张经理"
+        },
+        {
+          "id": 6,
+          "state": "施工中",
+          "Date": "2024-11-30 23:20",
+          "person": "张经理"
+        },
+        {
+          "id": 7,
+          "state": "已完成",
+          "Date": "2024-11-30 23:20",
+          "person": "张经理"
+        }
+      ]
+    },
+    {
+      "id": "WO202412992",
+      "image": "/src/assets/images/six_flower.jpg",
+      "workOrderStatus": "上传费用",
+      "contact": "蔡徐坤",
+      "maintenanceMan": "蔡徐坤",
+      "faultLocation": "偶像练习生",
+      "described": "偶像练习生",
+      "remarks": "偶像练习生",
+      "Date": "2024-12-03",
+      "phone": "1234567910",
+      "price": "0",
+      "log": [
+        {
+          "id": 1,
+          "state": "创建工单",
+          "Date": "2024-12-03 15:42",
+          "person": "张经理"
+        },
+        {
+          "id": 2,
+          "state": "派单",
+          "Date": "2024-12-03 15:42",
+          "person": "张经理"
+        },
+        {
+          "id": 3,
+          "state": "上传费用",
+          "Date": "2024-12-03 15:43",
+          "person": "张经理"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "speciality": "水电维修",
+      "skills": ["水管修理", "电路维护", "电气安装"],
+      "id": "c642"
+    },
+    {
+      "speciality": "设备维护",
+      "skills": ["电气维修", "空调维修", "管道系统安装"],
+      "id": "d456"
+    },
+    {
+      "speciality": "园艺与绿化",
+      "skills": ["植树造林", "园艺设计", "绿化养护"],
+      "id": "8eba"
+    },
+    {
+      "speciality": "设施维护",
+      "skills": ["电梯维护", "消防设施检查", "设备调试"],
+      "id": "2afb"
+    },
+    {
+      "speciality": "建筑结构修理",
+      "skills": ["砌墙", "混凝土修复", "屋顶维护"],
+      "id": "9859"
+    },
+    {
+      "speciality": "安全设施检查",
+      "skills": ["监控设备维护", "门禁系统检查"],
+      "id": "32a3"
+    },
+    {
+      "speciality": "道路与停车场维护",
+      "skills": ["铺设沥青", "停车场标线"],
+      "id": "5c14"
+    },
+    {
+      "speciality": "物业公共设施维修",
+      "skills": ["公共区域清洁", "设施维护"],
+      "id": "4c11"
+    }
+  ],
+  "maintenanceMan": [
+    {
+      "id": "RP202410001",
+      "name": "李四",
+      "phone": "12345678910",
+      "level": "高级工程师",
+      "workExperience": "5年",
+      "speciality": "设备维护",
+      "skills": ["电气维修", "空调维修", "管道系统安装"],
+      "certificate": ["Cisco认证网络工程师", "高级维修工程师"],
+      "currentState": "在职",
+      "remarks": "具有丰富的现场维修经验，擅长应急处理",
+      "TotalOrders": ["WO202410001", "WO202410002", "WO202410003", "WO202410004"]
+    },
+    {
+      "id": "RP202410002",
+      "name": "王五",
+      "phone": "13800138006",
+      "level": "工程师",
+      "workExperience": "3年",
+      "speciality": "水电维修",
+      "skills": [],
+      "certificate": ["电工证"],
+      "currentState": "在职",
+      "remarks": "擅长水电改造与维修",
+      "TotalOrders": ["WO202410005", "WO202410006"]
+    },
+    {
+      "id": "RP202410003",
+      "name": "张三",
+      "phone": "13800138007",
+      "level": "高级工程师",
+      "workExperience": "6年",
+      "speciality": "园艺与绿化",
+      "skills": ["植树造林", "园艺设计", "绿化养护"],
+      "certificate": ["园艺师资格证"],
+      "currentState": "在职",
+      "remarks": "善于设计小区绿化",
+      "TotalOrders": ["WO202410007", "WO202410008"]
+    },
+    {
+      "id": "RP202410004",
+      "name": "赵六",
+      "phone": "13800138008",
+      "level": "技术主管",
+      "workExperience": "8年",
+      "speciality": "设施维护",
+      "skills": ["电梯维护", "消防设施检查", "设备调试"],
+      "certificate": ["电梯维修工", "消防员证"],
+      "currentState": "在职",
+      "remarks": "丰富的设施维护经验",
+      "TotalOrders": ["WO202410009"]
+    },
+    {
+      "id": "RP202410005",
+      "name": "孙七",
+      "phone": "13800138009",
+      "level": "工程师",
+      "workExperience": "4年",
+      "speciality": "建筑结构修理",
+      "skills": ["砌墙", "混凝土修复", "屋顶维护"],
+      "certificate": ["建筑工人证"],
+      "currentState": "在职",
+      "remarks": "精通建筑工程基础",
+      "TotalOrders": ["WO202410010"]
+    },
+    {
+      "id": "RP202410006",
+      "name": "钱八",
+      "phone": "13800138010",
+      "level": "高级工程师",
+      "workExperience": "7年",
+      "speciality": "机械维修",
+      "skills": ["电动工具维修", "焊接", "设备调试"],
+      "certificate": ["焊工证"],
+      "currentState": "在职",
+      "remarks": "擅长复杂机械的维修",
+      "TotalOrders": ["WO202410011", "WO202410012"]
+    },
+    {
+      "id": "RP202410007",
+      "name": "吴十",
+      "phone": "13800138011",
+      "level": "维修工程师",
+      "workExperience": "2年",
+      "speciality": "安全设施检查",
+      "skills": ["监控设备维护", "门禁系统检查"],
+      "certificate": ["监控安装证"],
+      "currentState": "在职",
+      "remarks": "熟悉各类监控设备",
+      "TotalOrders": ["WO202410013", "WO202410014"]
+    },
+    {
+      "id": "RP202410008",
+      "name": "郑十一",
+      "phone": "13800138012",
+      "level": "工程师",
+      "workExperience": "3年",
+      "speciality": "道路与停车场维护",
+      "skills": ["铺设沥青", "停车场管理"],
+      "certificate": ["公路施工员证"],
+      "currentState": "在职",
+      "remarks": "熟悉道路养护",
+      "TotalOrders": ["WO202410015"]
+    },
+    {
+      "id": "RP202410009",
+      "name": "冯十二",
+      "phone": "13800138013",
+      "level": "维修工程师",
+      "workExperience": "4年",
+      "speciality": "物业公共设施维修",
+      "skills": ["公共区域清洁", "设施维护"],
+      "certificate": ["清洁工证"],
+      "currentState": "在职",
+      "remarks": "注重公共环境的维护",
+      "TotalOrders": ["WO202410016"]
+    },
+    {
+      "id": "RP202410010",
+      "name": "陈十三",
+      "phone": "13800138014",
+      "level": "技术员",
+      "workExperience": "2年",
+      "speciality": "环保设施维护",
+      "skills": ["污水处理", "垃圾分类"],
+      "certificate": ["环保技术证"],
+      "currentState": "在职",
+      "remarks": "关注环保设施的运行",
+      "TotalOrders": ["WO202410017"]
+    },
+    {
+      "id": "RP202412456",
+      "name": "蔡徐坤",
+      "level": "一个顶流明星",
+      "workExperience": "2.5年",
+      "phone": "12345678910",
+      "speciality": "园艺与绿化",
+      "skills": ["植树造林", "园艺设计", "绿化养护"],
+      "certificate": ["唱", "跳", "rap", "打篮球"],
+      "remarks": "一个顶流明星，擅长唱跳rap打篮球",
+      "TotalOrders": [],
+      "currentState": "在职"
+    }
+  ],
+  "admin": [
+    {
+      "id": "1",
+      "name": "张经理",
+      "role": "超级管理员",
+      "username": "zhang_admin",
+      "password": "zhangchao",
+      "token": "1",
+      "avatar": "/src/assets/images/six_flower.jpg"
+    },
+    {
+      "id": "2",
+      "name": "吴经理",
+      "role": "普通管理员",
+      "username": "wu_admin",
+      "password": "wulingyu",
+      "token": "2",
+      "avatar": "/src/assets/images/six_flower.jpg"
+    },
+    {
+      "id": "3",
+      "name": "金经理",
+      "role": "普通管理员",
+      "username": "jin_admin",
+      "password": "jinzhengzhu",
+      "token": "3",
+      "avatar": "/src/assets/images/six_flower.jpg"
+    },
+    {
+      "id": "4",
+      "name": "刘经理",
+      "role": "普通管理员",
+      "username": "liu_admin",
+      "password": "liujinhe",
+      "token": "4",
+      "avatar": "/src/assets/images/six_flower.jpg"
+    }
+  ],
+  "user": [
+    {
+      "id": "H202412204",
+      "role": "0",
+      "username": "H202412204",
+      "password": "123456"
+    },
+    {
+      "id": "RP202412456",
+      "role": "1",
+      "username": "RP202412456",
+      "password": "123456"
+    }
+  ]
+}

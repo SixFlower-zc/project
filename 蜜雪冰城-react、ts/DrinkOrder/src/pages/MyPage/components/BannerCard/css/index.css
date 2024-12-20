@@ -1,0 +1,59 @@
+.BannerCard {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.BannerCard > .top {
+  display: flex;
+  color: #fff;
+}
+
+.BannerCard > .top > div {
+  padding: 10px;
+}
+
+.BannerCard > .top > img {
+  width: 100px;
+}
+
+.BannerCard > .bottom {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.BannerCard > .bottom > .tab {
+  display: flex;
+  padding: 5px 0;
+}
+
+.BannerCard > .bottom > .tab > div {
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  border-radius: 10px;
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.BannerCard > .bottom > .tab > .active {
+  background-color: #ccc;
+}
+
+.BannerCard > .bottom > .btn {
+  width: 100%;
+  overflow: auto;
+  display: flex;
+}
+
+.BannerCard > .bottom > .btn > div {
+  width: 30%;
+}
+
+.BannerCard > .bottom > .btn > div > img {
+  width: 100%;
+}

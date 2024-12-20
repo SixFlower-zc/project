@@ -1,0 +1,29 @@
+<!--pages/set/index.wxml-->
+<view class="container">
+  <view class="title">设置页面</view>
+
+  <view class="section">
+    <view class="section-title">账户设置</view>
+    <view class="item" bindtap="onModifyUsername">
+      <text>修改用户名</text>
+    </view>
+    <view class="item" bindtap="onChangePassword">
+      <text>修改密码</text>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="section-title">通用设置</view>
+    <view class="item" bindtap="onLanguageSettings">
+      <text>语言选择</text>
+
+    </view>
+    <view class="item" bindtap="onPrivacySettings">
+      <text>隐私设置</text>
+    </view>
+  </view>
+
+  <view class="logout-section">
+    <button class="logout-button" bindtap="onLogout">退出登录</button>
+  </view>
+</view>

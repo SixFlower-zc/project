@@ -1,0 +1,286 @@
+@mixin flex_wrap() {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: calc(100vw / 375 * 10);
+  font-family: 思源黑体;
+}
+
+body {
+  background-color: #7ba9dd;
+}
+
+header {
+  height: 15.5rem;
+  padding: 0 1.5rem;
+  padding-top: 1.5rem;
+
+  >:nth-child(1) {
+    width: 30rem;
+    height: 3.2rem;
+    border-radius: 1.6rem;
+    padding: .8rem 0 .8rem 1rem;
+    line-height: 3.2rem;
+    background-color: #ffffff;
+    float: left;
+
+    >img {
+      height: 1.6rem;
+      float: left;
+      margin-right: .5rem;
+    }
+
+    input {
+      width: 16rem;
+      height: 1.6rem;
+      float: left;
+      border: none;
+      outline: none;
+
+      &::placeholder {
+        font-size: .9rem;
+        line-height: 1.6rem;
+      }
+    }
+  }
+
+  >:nth-child(2) {
+    float: right;
+    margin-top: -0.3rem;
+
+    >img {
+      width: 2.4rem;
+    }
+
+    >p {
+      font-size: 1rem;
+      color: #fff;
+    }
+  }
+
+  >:nth-child(3) {
+    margin: 1.7rem auto 2.3rem;
+    width: 32.9rem;
+
+    >img {
+      width: 100%;
+    }
+  }
+}
+
+section {
+  background-color: #f5f5f5;
+
+  .con1 {
+    height: 13.4rem;
+    background-color: #fff;
+    padding: 5.5rem 1.9rem 0;
+    @include flex_wrap();
+    justify-content: space-between;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1.1rem;
+
+    >a {
+      width: 5rem;
+      color: #999;
+
+      >img {
+        width: 100%;
+      }
+    }
+  }
+
+  .con2 {
+    height: 10.1rem;
+    background-color: #fff;
+    @include flex_wrap();
+    justify-content: space-evenly;
+    padding: 1rem 0;
+
+    >img {
+      width: 16.7rem;
+      height: 7.5rem;
+    }
+  }
+
+  .con3 {
+    height: 32.8rem;
+    @include flex_wrap();
+    background-color: #fff;
+    padding-bottom: 2rem;
+
+    h1 {
+      width: 100%;
+      height: 4.7rem;
+      padding-top: 2rem;
+      padding-left: 2rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    >div {
+      width: 100%;
+      @include flex_wrap();
+      justify-content: space-between;
+      padding: 0 2rem;
+
+      >img {
+        width: 10.4rem;
+      }
+    }
+
+  }
+
+  .banner {
+    width: 100%;
+    margin-bottom: 1.2rem;
+
+    >img {
+      width: 100%;
+    }
+  }
+
+  main {
+    background-color: #fff;
+
+    >nav {
+      padding: 1.1rem 2rem;
+      @include flex_wrap();
+      justify-content: space-between;
+
+      >a {
+        width: 7.5rem;
+        height: 2.6rem;
+        line-height: 2.6rem;
+        text-align: center;
+        background-color: #f7f7f7;
+        color: #999;
+        border-radius: .5rem;
+
+        &.active,
+        &:hover {
+          background-color: #ee8131;
+          color: #fff;
+        }
+      }
+    }
+
+    >section {
+      @include flex_wrap();
+      margin-bottom: 4.5rem;
+
+      >a {
+        width: 50%;
+        border-bottom: .1rem solid #ccc;
+
+        &:nth-child(2n-1) {
+          border-right: .1rem solid #ccc;
+        }
+
+        >img {
+          width: 100%;
+        }
+
+        >h1 {
+          height: 2.8rem;
+          line-height: 2.8rem;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          color: #333;
+          font-weight: normal;
+        }
+
+        >p {
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          color: #999;
+        }
+
+        div:nth-of-type(1) {
+          color: #ee8131;
+          height: 2.6rem;
+          line-height: 2.6rem;
+          padding-left: .5rem;
+        }
+
+        :last-child {
+          color: #999;
+          padding: 1rem;
+
+          span:last-child {
+            float: right;
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 5.6rem;
+  @include flex_wrap();
+  justify-content: space-evenly;
+  background-color: #fff;
+  padding-top: 1.1rem;
+
+  >a {
+    width: 2.1rem;
+    height: 3.6rem;
+    font-size: .9rem;
+    text-align: center;
+    color: #999;
+
+    &.active,
+    &:hover {
+      color: #8580f5;
+    }
+
+    >img {
+      width: 2.1rem;
+      height: 2.1rem;
+    }
+  }
+
+  >:nth-child(3) {
+    width: 7rem;
+    height: 7rem;
+    position: relative;
+    bottom: 3.5rem;
+    padding-top: 1.5rem;
+    background-color: #fff;
+    border-radius: 3.5rem 3.5rem 0 0;
+
+    >img {
+      width: 4.8rem;
+      height: 4rem;
+      margin: 0 auto;
+    }
+  }
+}

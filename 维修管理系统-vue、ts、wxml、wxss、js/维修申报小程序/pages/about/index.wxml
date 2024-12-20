@@ -1,0 +1,15 @@
+<!--pages/about/index.wxml-->
+<view class="container">
+  <view class="title">🎉 关于我们 🎉</view>
+  <view class="content">
+    <text>🛠️ 我们是“完美主义者俱乐部”，但我们对维修毫无兴趣！</text>
+    <text>🚫 维修？不不不，我们只喜欢让一切保持原样，绝不想动工具！</text>
+    <text>🌟 我们的目标是：创造完美的东西，而不是修补坏掉的！</text>
+  </view>
+  <view class="quirky-facts">
+    <text>📌 每当出现故障，我们的口号是：“不如换个新玩意！”</text>
+    <text>🍔 对于我们而言，维修工具就像是外星人，完全不懂！</text>
+    <text>🌈 我们的梦想是：拥有一台不会坏的机器，永远不需要维修！</text>
+  </view>
+  <button bindtap="goHome">🏠 返回主页</button>
+</view>

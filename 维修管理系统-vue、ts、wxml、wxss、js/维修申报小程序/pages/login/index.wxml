@@ -1,0 +1,10 @@
+<!--pages/login/index.wxml-->
+<view class="view-box">
+  <view class="box">
+    <text class="title">Welcome</text>
+    <label for="username"><text>账户</text><input id="username" type="text" model:value="{{username}}" /></label>
+    <label for="password"><text>密码</text><input id="password" type="text" model:value="{{password}}" /></label>
+    <button bind:tap="handleLogin">登录</button>
+  </view>
+  <mp-toptips ext-class="{{toptipType}}" msg="{{showMs}}" type="{{toptipType}}" show="{{showMs}}" delay="{{600}}" />
+</view>

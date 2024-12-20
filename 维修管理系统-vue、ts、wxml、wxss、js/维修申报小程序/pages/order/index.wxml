@@ -1,0 +1,4 @@
+<!--pages/order/index.wxml-->
+<view class="view-box">
+  <text>订单</text>
+</view>

@@ -1,0 +1,72 @@
+@import "通用";
+
+header {
+  @include tongLan(1139px, 103px);
+  font-size: 13px;
+  position: relative;
+
+  >img {
+    float: left;
+  }
+
+  >div {
+    width: 105px;
+    float: left;
+    color: #989a95;
+    padding: 29px 0 0 25px;
+    font-style: italic;
+
+    >p {
+      line-height: 25px;
+    }
+  }
+
+  >ul {
+    width: 615px;
+    height: 73px;
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+
+
+    >li {
+      width: 87px;
+      height: 71px;
+      line-height: 71px;
+      text-align: center;
+      float: left;
+      border-radius: 7px 7px 0 0;
+
+      &:hover,
+      &.moRen {
+        cursor: pointer;
+        background-color: #f75a53;
+        color: #fff;
+        transition: all 1s linear;
+      }
+
+    }
+  }
+}
+
+
+footer {
+  height: 138px;
+  background-color: #363636;
+  padding-top: 20px;
+
+  >P {
+    line-height: 30px;
+    color: #7b7b7b;
+    text-align: center;
+
+    >a {
+      color: #7b7b7b;
+
+      &:hover {
+        color: red;
+        cursor: pointer;
+      }
+    }
+  }
+}

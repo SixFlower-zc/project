@@ -1,0 +1,59 @@
+.BannerCard {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+
+  > .top {
+    display: flex;
+    color: #fff;
+
+    > div {
+      padding: 10px;
+    }
+
+    > img {
+      width: 100px;
+    }
+  }
+
+  > .bottom {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    > .tab {
+      display: flex;
+      padding: 5px 0;
+
+      > div {
+        border: 1px solid #ccc;
+        margin-right: 10px;
+        border-radius: 10px;
+        height: 30px;
+        width: 60px;
+        text-align: center;
+        line-height: 30px;
+      }
+
+      > .active {
+        background-color: #ccc;
+      }
+    }
+
+    > .btn {
+      width: 100%;
+      overflow: auto;
+      display: flex;
+
+      > div {
+        width: 30%;
+
+        > img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

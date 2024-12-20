@@ -1,0 +1,6 @@
+<!--components/my-button/index.wxml-->
+<button class="my-button" bind:tap="myClick">
+  <slot></slot>
+  <view class="block"></view>
+  >
+</button>

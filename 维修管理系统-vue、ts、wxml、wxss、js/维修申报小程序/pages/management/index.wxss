@@ -1,0 +1,4 @@
+/* pages/management/index.wxss */
+.view-box {
+  height: 100vh;
+}

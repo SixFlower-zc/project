@@ -1,0 +1,13 @@
+.indent-page {
+  height: 100%;
+
+  > .swiper {
+    height: calc(100vh - 137px);
+  }
+
+  .SwiperItem {
+    height: calc(100vh - 137px);
+    padding: 13px;
+    background-color: aliceblue;
+  }
+}

@@ -1,0 +1,49 @@
+/* pages/my/index.wxss */
+.top-bg {
+  height: 200rpx;
+  background-color: #ffe6fb;
+}
+
+.view-box {
+  height: 100vh - 200rpx;
+}
+
+.view-box > .box {
+  width: 750rpx;
+  height: 1000rpx;
+  position: absolute;
+  background-color: #fff;
+  top: 150rpx;
+  border-radius: 70rpx 70rpx 0 0;
+}
+
+.view-box > .box > image {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  position: absolute;
+  top: -75rpx;
+  left: 300rpx;
+}
+
+.view-box > .box > .option {
+  width: 750rpx;
+  margin-top: 125rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.view-box > .box > .option > text {
+  font-size: 50rpx;
+  text-align: center;
+}
+
+.view-box > .box > .option > text:last-child {
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  color: #ccc;
+}
+
+.view-box > .box > .option > button:first-of-type(button) {
+  border-top: 5rpx solid pink;
+}

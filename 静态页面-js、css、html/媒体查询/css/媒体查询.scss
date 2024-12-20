@@ -1,0 +1,483 @@
+@import "通用";
+
+@media screen and(min-width:1200px) and (max-width: 1330px) {
+  body {
+    width: auto;
+  }
+
+  header {
+    width: 100%;
+  }
+}
+
+@media screen and(min-width:990px) and (max-width: 1200px) {
+  body {
+    width: auto;
+  }
+
+  header {
+    width: 100%;
+
+    >.nav {
+      width: 960px;
+
+      >span {
+        display: block;
+      }
+
+      span:hover~ul {
+        height: 336px;
+      }
+
+      >ul {
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        height: 0;
+        overflow: hidden;
+        left: 0;
+        background-color: #fff;
+        z-index: 2;
+
+        li {
+          display: block;
+          @include banXin(960px, auto);
+
+        }
+      }
+    }
+  }
+
+  section.hero {
+    .container {
+      width: 960px;
+
+      .title {
+        width: 936px;
+      }
+    }
+  }
+
+  section.content {
+    .container {
+      width: 960px;
+    }
+
+    .imgS {
+      width: 960px;
+    }
+  }
+
+
+
+  div.logo {
+    width: 960px;
+  }
+
+  section.lists {
+    div.container {
+      width: 960px;
+    }
+  }
+
+  footer {
+    .container {
+      width: 960px;
+    }
+  }
+}
+
+@media screen and(min-width:768px) and (max-width: 990px) {
+  body {
+    width: auto;
+  }
+
+  header {
+    width: 100%;
+
+    >.nav {
+      width: 720px;
+
+      >span {
+        display: block;
+      }
+
+      span:hover~ul {
+        height: 336px;
+      }
+
+      >ul {
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        height: 0;
+        overflow: hidden;
+        left: 0;
+        background-color: #fff;
+        z-index: 2;
+
+        li {
+          display: block;
+          @include banXin(720px, auto);
+
+        }
+      }
+    }
+  }
+
+  section.hero {
+    .container {
+      width: 720px;
+
+      .title {
+        width: 696px;
+      }
+    }
+  }
+
+  section.content {
+    .container {
+      width: 720px;
+    }
+
+    .imgS {
+      width: 720px;
+
+      >div {
+        width: 48%;
+      }
+    }
+  }
+
+
+
+  div.logo {
+    width: 720px;
+
+    div {
+      width: 50%;
+    }
+  }
+
+  section.lists {
+    div.container {
+      width: 720px;
+
+      >:nth-child(1) {
+        width: 336px;
+      }
+    }
+  }
+
+  footer {
+    .container {
+      width: 720px;
+    }
+  }
+}
+
+@media screen and(min-width:575px) and (max-width: 768px) {
+  body {
+    width: auto;
+  }
+
+  header {
+    width: 100%;
+
+    >.nav {
+      width: 540px;
+
+      >span {
+        display: block;
+      }
+
+      span:hover~ul {
+        height: 336px;
+      }
+
+      >ul {
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        height: 0;
+        overflow: hidden;
+        left: 0;
+        background-color: #fff;
+        z-index: 2;
+
+        li {
+          display: block;
+          @include banXin(540px, auto);
+
+        }
+      }
+    }
+  }
+
+  section.hero {
+    .container {
+      width: 540px;
+
+      .title {
+        width: 516px;
+      }
+    }
+  }
+
+  section.content {
+    .container {
+      width: 540px;
+    }
+
+    .imgS {
+      width: 540px;
+
+      >div {
+        width: 100%;
+      }
+    }
+  }
+
+  div.logo {
+    width: 540px;
+
+    div {
+      width: 25%;
+    }
+  }
+
+  section.lists {
+    div.container {
+      width: 540px;
+
+      >:nth-child(1) {
+        width: 100%;
+
+        &~div {
+          width: 100%;
+
+        }
+      }
+    }
+  }
+
+  footer {
+    .container {
+      width: 540px;
+      display: block;
+
+      .right {
+        padding: 0;
+
+        span {
+          float: none;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width:575px) and (min-width:490px) {
+  body {
+    width: auto;
+  }
+
+  header {
+    width: 100%;
+
+    >.nav {
+      width: 100%;
+
+      >span {
+        display: block;
+      }
+
+      span:hover~ul {
+        height: 336px;
+      }
+
+      >ul {
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        height: 0;
+        overflow: hidden;
+        left: 0;
+        background-color: #fff;
+        z-index: 2;
+
+        li {
+          display: block;
+          @include banXin(100%, auto);
+
+        }
+      }
+    }
+  }
+
+  section.hero {
+    .container {
+      width: 100%;
+
+      .title {
+        width: calc(100% - 24px);
+      }
+    }
+  }
+
+  section.content {
+    .container {
+      width: 100%;
+    }
+
+    .imgS {
+      width: 100%;
+
+      >div {
+        width: 100%;
+      }
+    }
+  }
+
+  div.logo {
+    width: 100%;
+
+    div {
+      width: 50%;
+    }
+  }
+
+  section.lists {
+    div.container {
+      width: 100%;
+
+      >:nth-child(1) {
+        width: 100%;
+
+        &~div {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  footer {
+    .container {
+      width: 100%;
+      display: block;
+
+      .right {
+        padding: 0;
+
+        span {
+          float: none;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width:490px) {
+  body {
+    width: 490px;
+  }
+
+  header {
+    width: 100%;
+
+    >.nav {
+      width: 100%;
+
+      >span {
+        display: block;
+      }
+
+      span:hover~ul {
+        height: 336px;
+      }
+
+      >ul {
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        height: 0;
+        overflow: hidden;
+        left: 0;
+        background-color: #fff;
+        z-index: 2;
+
+        li {
+          display: block;
+          @include banXin(100%, auto);
+
+        }
+      }
+    }
+  }
+
+  section.hero {
+    .container {
+      width: 100%;
+
+      .title {
+        width: calc(100% - 24px);
+      }
+    }
+  }
+
+  section.content {
+    .container {
+      width: 100%;
+    }
+
+    .imgS {
+      width: 100%;
+
+      >div {
+        width: 100%;
+      }
+    }
+  }
+
+  div.logo {
+    width: 100%;
+
+    div {
+      width: 50%;
+    }
+  }
+
+  section.lists {
+    div.container {
+      width: 100%;
+
+      >:nth-child(1) {
+        width: 100%;
+
+        &~div {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  footer {
+    .container {
+      width: 100%;
+      display: block;
+
+      .right {
+        padding: 0;
+
+        span {
+          float: none;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

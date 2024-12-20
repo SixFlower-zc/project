@@ -1,0 +1,15 @@
+<!--pages/online/index.wxml-->
+<view class="view-box">
+  <view class="header">在线客服</view>
+  <scroll-view class="chat-box" scroll-y="true" id="chatBox">
+    <block wx:for="{{messages}}" wx:key="index">
+      <view class="message {{item.type}}">
+        <text>{{item.content}}</text>
+      </view>
+    </block>
+  </scroll-view>
+  <view class="input-container">
+    <input type="text" class="input" placeholder="请输入您的问题..." bindinput="onInput" value="{{userInput}}" />
+    <button class="send-button" bindtap="sendMessage">发送</button>
+  </view>
+</view>

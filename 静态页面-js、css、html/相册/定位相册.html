@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    img {
+      display: block;
+      width: 200px;
+    }
+
+    caption {
+      color: #973333;
+      text-align: center;
+      font-weight: normal;
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    table {
+      margin: 0 auto;
+      border-spacing: 10px;
+      border-top: 1px dashed #ccc;
+      padding-top: 15px;
+    }
+
+    table td {
+      border: 10px solid #eeeeee;
+      position: relative;
+      box-shadow: 0 0 0 1px black;
+    }
+
+    table td div {
+      background-color: #fff;
+      position: relative;
+      top: 0;
+      left: 0;
+      padding: 4px 5px;
+      border: 1px solid black;
+    }
+
+    table td:hover img {
+      width: 300px;
+      transition: all 0.3s linear;
+    }
+
+    table td:hover div {
+      position: absolute;
+      z-index: 1;
+      top: -25px;
+      left: -50px;
+      transition: all 0.3s linear;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <caption>HoverBox Image Gallery</caption>
+    <tr>
+      <td>
+        <div><img src="./img/photo01.jpg" alt=""></div>
+      </td>
+      <td>
+        <div><img src="./img/photo02.jpg" alt=""></div>
+      </td>
+      <td>
+        <div><img src="./img/photo03.jpg" alt=""></div>
+      </td>
+      <td>
+        <div><img src="./img/photo04.jpg" alt=""></div>
+      </td>
+      <td>
+        <div><img src="./img/photo05.jpg" alt=""></div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div><img src="./img/photo06.jpg" alt=""></div>
+      </td>
+      <td>
+        <div><img src="./img/photo07.jpg" alt=""></div>
+      </td>
+      <td>
+        <div><img src="./img/photo08.jpg" alt=""></div>
+      </td>
+      <td>
+        <div><img src="./img/photo09.jpg" alt=""></div>
+      </td>
+      <td>
+        <div><img src="./img/photo10.jpg" alt=""></div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div><img src="./img/photo11.jpg" alt=""></div>
+      </td>
+      <td>
+        <div><img src="./img/photo12.jpg" alt=""></div>
+      </td>
+      <td>
+        <div><img src="./img/photo13.jpg" alt=""></div>
+      </td>
+      <td>
+        <div><img src="./img/photo14.jpg" alt=""></div>
+      </td>
+      <td>
+        <div><img src="./img/photo15.jpg" alt=""></div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div><img src="./img/photo16.jpg" alt=""></div>
+      </td>
+      <td>
+        <div><img src="./img/photo17.jpg" alt=""></div>
+      </td>
+      <td>
+        <div><img src="./img/photo18.jpg" alt=""></div>
+      </td>
+      <td>
+        <div><img src="./img/photo19.jpg" alt=""></div>
+      </td>
+      <td>
+        <div><img src="./img/photo20.jpg" alt=""></div>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

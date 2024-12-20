@@ -1,0 +1,114 @@
+.my-page {
+  background: linear-gradient(to bottom, #dfeaff, #f0f0f0);
+  height: calc(100vh - 98px);
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  padding: 5px 10px;
+}
+
+.my-page > div,
+.my-page header {
+  margin-bottom: 15px;
+}
+
+.my-page > header {
+  margin-top: 24px;
+  display: flex;
+}
+
+.my-page > header > img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.my-page > header > :nth-child(2) {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.my-page > header > :nth-child(2) > :first-child {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.my-page > header > :nth-child(2) > :last-child {
+  color: #8b8b8b;
+}
+
+.my-page > header > .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-page > header > .btn > button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: none;
+}
+
+.my-page > .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-page > .content > div {
+  border: 1px solid #ffe9ed;
+  border-radius: 9px;
+  padding: 10px 15px;
+  width: 48%;
+  background-color: #fff6f8;
+  display: flex;
+}
+
+.my-page > .content > div > div:first-child {
+  flex: 1;
+}
+
+.my-page > .content > div > div > div {
+  padding: 4px 0;
+  flex: 1;
+}
+
+.my-page > .content > div > div > img {
+  width: 50px;
+}
+
+.my-page > h3 {
+  padding: 10px 0;
+}
+
+.my-page > .serve {
+  display: flex;
+}
+
+.my-page > .serve > div {
+  flex: 1;
+}
+
+.my-page > .serve > div > div {
+  text-align: center;
+  color: #8b8b8b;
+}
+
+.my-page > .serve > div > div img {
+  width: 100%;
+}
+
+.my-page > footer {
+  padding: 20px 10px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 17px;
+}
+
+.my-page > footer > img {
+  width: 100%;
+}

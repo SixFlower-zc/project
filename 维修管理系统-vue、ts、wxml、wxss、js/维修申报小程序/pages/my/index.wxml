@@ -1,0 +1,18 @@
+<!--pages/my/index.wxml-->
+<view class="top-bg"></view>
+<view class="view-box">
+  <view class="box">
+    <image src="/assets/image/avatar.gif" mode="" />
+    <view class="option">
+      <text class="username">{{userInfo.name}}</text>
+      <my-button style="border-top: 2rpx solid pink;margin-top: 60rpx;" bind:myClick="myClick" data-id="0">基本信息</my-button>
+      <my-button bind:myClick="myClick" data-id="1">匿名反馈</my-button>
+      <my-button bind:myClick="myClick" data-id="2">关于我们</my-button>
+      <my-button wx:if="{{userInfo.role === '0'}}" bind:myClick="myClick" data-id="3">在职职工</my-button>
+      <my-button bind:myClick="myClick" data-id="4">在线客服</my-button>
+      <my-button bind:myClick="myClick" data-id="5">设置</my-button>
+
+      <text class="footer">六六六花花写着玩的</text>
+    </view>
+  </view>
+</view>

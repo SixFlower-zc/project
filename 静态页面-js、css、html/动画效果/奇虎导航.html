@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .box {
+      width: 1000px;
+      margin: 50px auto;
+      display: flex;
+    }
+
+    .box>a {
+      flex: 1;
+      display: flex;
+      color: #bebebe;
+      border: 1px solid #bebebe;
+      border-right: none;
+      padding: 10px 0;
+    }
+
+    a:hover {
+      color: green;
+    }
+
+    .box>a>div {
+      transition: all 0.3s linear;
+    }
+
+    .box>a:last-child {
+      border-right: 1px solid #bebebe;
+    }
+
+    a> :nth-child(1) {
+      margin-left: 5px;
+      width: 23px;
+      height: 23px;
+      background: url(./img/360bg.png) no-repeat;
+    }
+
+    .box :nth-child(1) div {
+      background-position: 0 -63px;
+    }
+
+    .box a:hover:nth-child(1) div {
+      background-position: 0 -101px;
+    }
+
+    .box :nth-child(2) div {
+      background-position: 0 -140px;
+    }
+
+    .box a:hover:nth-child(2) div {
+      background-position: 0 -182px;
+    }
+
+    .box :nth-child(3) div {
+      background-position: 0 -222px;
+    }
+
+    .box a:hover:nth-child(3) div {
+      background-position: 0 -263px;
+    }
+
+    .box :nth-child(4) div {
+      background-position: 0 -304px;
+    }
+
+    .box a:hover:nth-child(4) div {
+      background-position: 0 -344px;
+    }
+
+    .box :nth-child(5) div {
+      background-position: 0 -384px;
+    }
+
+    .box a:hover:nth-child(5) div {
+      background-position: 0 -424px;
+    }
+
+    .box :nth-child(6) div {
+      background-position: 0 -461px;
+    }
+
+    .box a:hover:nth-child(6) div {
+      background-position: 0 -504px;
+    }
+
+    .box :nth-child(7) div {
+      background-position: 0 -539px;
+    }
+
+    .box a:hover:nth-child(7) div {
+      background-position: 0 -575px;
+    }
+
+    .box :nth-child(8) div {
+      background-position: 0 -612px;
+    }
+
+    .box a:hover:nth-child(8) div {
+      background-position: 0 -652px;
+    }
+
+    .box :nth-child(9) div {
+      background-position: 0 -691px;
+    }
+
+    .box a:hover:nth-child(9) div {
+      background-position: 0 -731px;
+    }
+
+    .box :nth-child(10) div {
+      background-position: 0 -770px;
+    }
+
+    .box a:hover:nth-child(10) div {
+      background-position: 0 -810px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <a href="">
+      <div></div>
+      <p>我的主页</p>
+    </a>
+    <a href="">
+      <div></div>
+      <p>新闻头条</p>
+    </a>
+    <a href="">
+      <div></div>
+      <p>电视剧</p>
+    </a>
+    <a href="">
+      <div></div>
+      <p>最新电影</p>
+    </a>
+    <a href="">
+      <div></div>
+      <p>小说大全</p>
+    </a>
+    <a href="">
+      <div></div>
+      <p>旅游度假</p>
+    </a>
+    <a href="">
+      <div></div>
+      <p>小游戏</p>
+    </a>
+    <a href="">
+      <div></div>
+      <p>正品购物</p>
+    </a>
+    <a href="">
+      <div></div>
+      <p>美团外卖</p>
+    </a>
+    <a href="">
+      <div></div>
+      <p>移动互联</p>
+    </a>
+  </div>
+</body>
+
+</html>

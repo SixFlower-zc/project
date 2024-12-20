@@ -1,0 +1,67 @@
+/* pages/set/index.wxss */
+.container {
+  padding: 20px;
+  background-color: #f0f3f6;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.section {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.section-title {
+  padding: 15px;
+  font-size: 16px;
+  color: #555;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #eee;
+}
+
+.item {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.item:hover {
+  background-color: #f1f1f1;
+}
+
+.logout-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.logout-button {
+  padding: 12px 25px;
+  background-color: #ff4b5c;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.logout-button:hover {
+  background-color: #ff616d;
+  transform: translateY(-2px);
+}

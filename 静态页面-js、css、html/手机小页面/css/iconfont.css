@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "iconfont";
+  /* Project id 4661656 */
+  src: url('iconfont.woff2?t=1724313455328') format('woff2'),
+    url('iconfont.woff?t=1724313455328') format('woff'),
+    url('iconfont.ttf?t=1724313455328') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-qiabao:before {
+  content: "\e669";
+}
+
+.icon-jizhangben:before {
+  content: "\e61c";
+  color: #2db3e8;
+}
+
+.icon-ico:before {
+  content: "\e64c";
+  color: #2eb3e8;
+}
+
+.icon-jia:before {
+  content: "\e600";
+}
+
+.icon-pengyou:before {
+  content: "\e746";
+}
+
+.icon-gerenxinxi:before {
+  content: "\e659";
+}
+
+.icon-zhuanzhang:before {
+  content: "\e63c";
+  color: #26b0e7;
+}
+
+.icon-tianmao:before {
+  content: "\e69f";
+  color: #dd2727;
+}
+
+.icon-mayijubao:before {
+  content: "\e61e";
+  color: #27b0e7;
+}
+
+.icon-shenghuojiaofei:before {
+  content: "\e63f";
+  color: #2eb3e8;
+}
+
+.icon-saoyisao:before {
+  content: "\e891";
+}
+
+.icon-sousuoxiao:before {
+  content: "\e8d6";
+}
+
+.icon-waimai-:before {
+  content: "\e607";
+  color: #f15a4a;
+}
+
+.icon-taopiaopiao1:before {
+  content: "\e601";
+  color: #f96268;
+}
+
+.icon-zhimaxinyong-:before {
+  content: "\e694";
+  color: #36bc99;
+}
+
+.icon-tianmaochaoshi:before {
+  content: "\e602";
+  color: #df3535;
+}
+
+.icon-koubei:before {
+  content: "\e618";
+}
+
+.icon-fukuan:before {
+  content: "\e626";
+}
+
+.icon-didichuhang:before {
+  content: "\e679";
+  color: #ffb257;
+}
+
+.icon-xinyongka:before {
+  content: "\e745";
+  color: #ffb359;
+}
+
+.icon-shoucang:before {
+  content: "\e60e";
+  color: #29ab91;
+}
+
+.icon-xiangqingzhangdan:before {
+  content: "\e639";
+}
+
+.icon-fukuanma:before {
+  content: "\e662";
+}
+
+.icon-zhifubao:before {
+  content: "\e609";
+}
+
+.icon-yuebao:before {
+  content: "\e603";
+  color: #f96268;
+}
+
+.icon-shoujichongzhi:before {
+  content: "\e604";
+  color: #2db2e7;
+}
+
+.icon-hongbao:before {
+  content: "\e608";
+  color: #f96268;
+}

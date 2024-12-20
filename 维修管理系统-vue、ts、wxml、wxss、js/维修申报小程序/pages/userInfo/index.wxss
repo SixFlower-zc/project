@@ -1,0 +1,60 @@
+/* pages/userInfo/index.wxss */
+/* pages/userInfo/index.wxss */
+.container {
+  width: 100%;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.avatar > image {
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+.username {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.info-list {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.info-item > input {
+  flex: 1;
+  text-align: right;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.value {
+  color: #333;
+}
+
+.action-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007aff;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}

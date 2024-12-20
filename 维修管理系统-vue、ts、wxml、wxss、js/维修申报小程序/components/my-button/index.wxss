@@ -1,0 +1,13 @@
+/* components/my-button/index.wxss */
+.my-button {
+  width: 750rpx !important;
+  background-color: #fff;
+  padding: 25rpx 50rpx;
+  display: flex;
+  border-bottom: 5rpx solid pink;
+  border-radius: 0 0 30rpx 30rpx;
+}
+
+.my-button > .block {
+  flex: 1;
+}

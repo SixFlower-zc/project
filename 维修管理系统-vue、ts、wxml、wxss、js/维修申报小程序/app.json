@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/home/index",
+    "pages/my/index",
+    "pages/management/index",
+    "pages/order/index",
+    "pages/userInfo/index",
+    "pages/feedback/index",
+    "pages/about/index",
+    "pages/maintenanceMan/index",
+    "pages/online/index",
+    "pages/set/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小区报修",
+    "navigationBarBackgroundColor": "#ffe6fb"
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/order/index",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/management/index",
+        "text": "管理"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的"
+      }
+    ],
+    "position": "bottom"
+  },
+  "usingComponents": {},
+  "useExtendedLib": {
+    "weui": true
+  }
+}

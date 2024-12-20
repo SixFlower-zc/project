@@ -1,0 +1,50 @@
+<!-- pages/userInfo/index.wxml -->
+<view class="container">
+  <view class="header">
+    <view class="avatar">
+      <image src="/assets/image/avatar.gif" mode="aspectFill" />
+    </view>
+    <input wx:if="{{btnText!=='修改信息'}}" type="text" model:value="{{name}}" />
+    <text wx:else class="value">{{name}}</text>
+  </view>
+
+  <view class="info-list">
+    <view class="info-item">
+      <text class="label">性别:</text>
+      <input wx:if="{{btnText!=='修改信息'}}" type="text" model:value="{{gender}}" />
+      <text wx:else class="value">{{gender}}</text>
+    </view>
+    <view class="info-item">
+      <text class="label">年龄:</text>
+      <input wx:if="{{btnText!=='修改信息'}}" type="text" model:value="{{age}}" />
+      <text wx:else class="value">{{age}}</text>
+    </view>
+    <view class="info-item">
+      <text class="label">账号:</text>
+      <input wx:if="{{btnText!=='修改信息'}}" type="text" model:value="{{username}}" />
+      <text wx:else class="value">{{username}}</text>
+    </view>
+    <view class="info-item">
+      <text class="label">密码:</text>
+      <input wx:if="{{btnText!=='修改信息'}}" type="text" model:value="{{password}}" />
+      <text wx:else class="value">{{password}}</text>
+    </view>
+    <view class="info-item">
+      <text class="label">联系方式:</text>
+      <input wx:if="{{btnText!=='修改信息'}}" type="text" model:value="{{phone}}" />
+      <text wx:else class="value">{{phone}}</text>
+    </view>
+    <view class="info-item">
+      <text class="label">住址:</text>
+      <input wx:if="{{btnText!=='修改信息'}}" type="text" model:value="{{address}}" />
+      <text wx:else class="value">{{address}}</text>
+    </view>
+    <view class="info-item">
+      <text class="label">备注:</text>
+      <input wx:if="{{btnText!=='修改信息'}}" type="text" model:value="{{remarks}}" />
+      <text wx:else class="value">{{remarks}}</text>
+    </view>
+  </view>
+
+  <button class="action-button" bind:tap="handleclick">{{btnText}}</button>
+</view>
